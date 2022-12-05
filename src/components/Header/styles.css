@@ -83,3 +83,24 @@
     font-size: 0.9rem !important;
     color: var(--font-grey) !important;
 }
+
+.bottom-nav{
+    display: none;
+}
+
+@media only screen and (max-width:800px){
+    .search-bar,
+    .airbnb-your-home{
+        display: none;
+    }
+    
+    .bottom-nav {
+            display: block;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            border-top: 1px solid var(--grey);
+            box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+        }
+}
