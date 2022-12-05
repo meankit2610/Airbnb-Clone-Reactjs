@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-logo{
+    height: 2rem;
+}
+
+.search-bar{
+    display: flex;
+    
+}
