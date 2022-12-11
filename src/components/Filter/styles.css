@@ -34,5 +34,5 @@
 }
 
 .selected-label {
-    color: var(--black);
+    color: var(--black  );
 }

@@ -5,6 +5,8 @@
     padding: 1rem 3rem;
     position: sticky;
     top: 0;
+    background-color: var(--white);
+    z-index: 1000;
 }
 
 .navbar-logo{
